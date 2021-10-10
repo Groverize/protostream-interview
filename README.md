@@ -4,6 +4,8 @@ Completed Sunday between 7:30AM and 9:30AM (with a short unexpected break for br
 ## Errors:
 Missing images in one of the object. Used a temporary placeholder but would likely just omit that video untill i've discussed with the client how to handle these types of issues.
 
+I forgot to keep committing often after breakfast so sorry about the lack of commits between 8:00-9:30. Generally, I'd commit each feature separately or if fixing issues, each issue would have it's own commit with an issue reference of some sort (ticket number/description. Depends on system).
+
 ## Notes
 I've used a pretty hacky way of getting screen size using the Angular CDK directly in a component. I would usually do this on a more global level but i was short on time and wanted to implement the responsive part roughly.
 
