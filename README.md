@@ -6,6 +6,8 @@ Missing images in one of the object. Used a temporary placeholder but would like
 
 I forgot to keep committing often after breakfast so sorry about the lack of commits between 8:00-9:30. Generally, I'd commit each feature separately or if fixing issues, each issue would have it's own commit with an issue reference of some sort (ticket number/description. Depends on system).
 
+Added the pointer cursor late because it bothered me when i looked at it again.
+
 ## Notes
 I've used a pretty hacky way of getting screen size using the Angular CDK directly in a component. I would usually do this on a more global level but i was short on time and wanted to implement the responsive part roughly.
 
