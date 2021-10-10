@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-video-player',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VideoPlayerComponent implements OnInit {
 
-  constructor() { }
+  videoID = 0;
+
+  constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
+    this.videoID = Number(this.route.snapshot.paramMap.get('id'));
+    
   }
 
 }

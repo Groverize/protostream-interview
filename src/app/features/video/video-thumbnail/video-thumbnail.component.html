@@ -1,1 +1,10 @@
-<p>video-thumbnail works!</p>
+
+<img [src]="getImageThumbnailURL()">
+<div class="hide description">
+    <div>
+        {{videoInfo.description}}
+    </div>
+</div>
+<div class="duration">
+    {{videoInfo.duration}}
+</div>

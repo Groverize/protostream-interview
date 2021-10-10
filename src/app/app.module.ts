@@ -1,3 +1,4 @@
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -14,8 +15,8 @@ import { VideoModule } from './features/video/video.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CoreModule,
-    VideoModule
+    HttpClientModule,
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

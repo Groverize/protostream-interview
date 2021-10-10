@@ -1,1 +1,6 @@
-<p>home works!</p>
+<button (click)="orderByReleaseDate()">Order By Release Date</button>
+
+<section id="thumbnail-selector">
+    <app-video-thumbnail *ngFor="let vi of videoInfo" [videoInfo]="vi" (click)="selectVideo(vi.id)"></app-video-thumbnail>
+</section>
+
